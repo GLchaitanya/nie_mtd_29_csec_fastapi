@@ -1,0 +1,13 @@
+to validate html forms->js
+
+SPA  - single page Application - Frameworks
+     - to make web age as app
+     examples: React JS, Angular, Vue JS
+
+React JS - 
+      JSX = JS + XML (HTML)
+
+Node JS based frontend Framework
+Node JS based UI Framework
+
+
