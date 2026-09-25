@@ -34,7 +34,7 @@ def ticket_read_by_id(id : int):
 @app.post("/tickets", status_code=201, response_model=TicketResponse)
 def ticket_create(Ticket_payload:TicketCreate):
     new_id = max(db.keys(), default=0) + 1
-    db[new_id] = {"id":new_id,ticket_payload.model_dump()}
+    db[new_id] = {"id":new_id, ticket_payload.model_dump()}
     return db[new_id]
 @app.put("/tickets/{id}", response_model=TicketResponse)
 def tickets_update(id : int, payload : TicketCreate):
